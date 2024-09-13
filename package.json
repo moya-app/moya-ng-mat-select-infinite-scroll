@@ -1,6 +1,6 @@
 {
-  "name": "ng-mat-select-infinite-scroll",
-  "version": "4.0.0",
+  "name": "ng-v17-mat-select-infinite-scroll",
+  "version": "5.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -47,6 +47,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HaidarZ/ng-mat-select-infinite-scroll.git"
-  }
+    "url": "https://github.com/moya-app/moya-ng-mat-select-infinite-scroll.git"
+  },
+  "license": "MIT"
 }

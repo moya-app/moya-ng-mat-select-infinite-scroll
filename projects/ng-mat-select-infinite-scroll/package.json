@@ -1,16 +1,15 @@
 {
-  "name": "ng-mat-select-infinite-scroll",
-  "version": "5.0.0",
-  "description": "Adds missing infinite scroll functionality for the angular material select component",
+  "name": "ng-v17-mat-select-infinite-scroll",
+  "version": "5.0.2",
+  "description": "Adds missing infinite scroll functionality for the angular material select component. Updated for Angular v17",
   "author": "Haidar Zeineddine",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HaidarZ/ng-mat-select-infinite-scroll.git"
+    "url": "https://github.com/moya-app/moya-ng-mat-select-infinite-scroll.git"
   },
   "bugs": {
     "url": "https://github.com/HaidarZ/ng-mat-select-infinite-scroll/issues"
   },
-  "homepage": "https://github.com/HaidarZ/ng-mat-select-infinite-scroll",
   "keywords": [
     "angular",
     "angular-material",

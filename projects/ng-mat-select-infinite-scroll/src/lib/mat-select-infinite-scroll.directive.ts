@@ -7,7 +7,8 @@ import {fromEvent, Subject} from 'rxjs';
 const SELECT_ITEM_HEIGHT_EM = 3;
 
 @Directive({
-  selector: '[msInfiniteScroll]'
+  selector: '[msInfiniteScroll]',
+  standalone: true,
 })
 export class MatSelectInfiniteScrollDirective implements OnInit, OnDestroy, AfterViewInit {
 

@@ -3,9 +3,10 @@ import {MatSelectInfiniteScrollDirective} from './mat-select-infinite-scroll.dir
 import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
-  declarations: [MatSelectInfiniteScrollDirective],
+  declarations: [],
   imports: [
-    MatSelectModule
+    MatSelectModule,
+    MatSelectInfiniteScrollDirective
   ],
   exports: [MatSelectInfiniteScrollDirective]
 })

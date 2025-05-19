@@ -36,9 +36,13 @@ export class MatSelectInfiniteScrollDirective implements OnInit, OnDestroy, Afte
       takeUntil(this.destroyed$)
     ).subscribe((opened) => {
       if (opened) {
-        this.panel = this.matSelect.panel.nativeElement;
-        this.singleOptionHeight = this.getSelectItemHeightPx();
-        this.registerScrollListener();
+        setTimeout(() => {
+          if (this.matSelect.panel) {
+            this.panel = this.matSelect.panel.nativeElement;
+            this.singleOptionHeight = this.getSelectItemHeightPx();
+            this.registerScrollListener();
+          }
+        })
       }
     });
   }
